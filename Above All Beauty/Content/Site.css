@@ -1,0 +1,139 @@
+﻿body {
+    padding-top: 50px;
+    padding-bottom: 20px;
+}
+
+/* Set padding to keep content from hitting the edges */
+.body-content {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+/* Override the default bootstrap behavior where horizontal description lists 
+   will truncate terms that are too long to fit in the left column 
+*/
+.dl-horizontal dt {
+    white-space: normal;
+}
+
+/* Set width on the form input elements since they're 100% wide by default */
+input,
+select,
+textarea {
+    max-width: 280px;
+}
+
+#logo{
+    max-width: 275px;
+    max-height: 120px;
+    position: absolute;
+    top: -25px;
+    left: -28px;
+}
+
+#home-jumbotron{
+    background-color: #49274A;
+    color: white;
+    margin-bottom: 0;
+    border-bottom: 2px solid #94618e
+}
+
+#home-jumbotron > h1{
+    font-family: dancing script , 'Script MT';
+        border-bottom: 1px solid #94618e
+}
+#home-jumbotron > h4{
+    font-family: comfortaa , 'Script MT';
+
+
+}
+
+
+#home-flex-box{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    background-color: white; 
+    padding: 15px 0px;
+    align-items: flex-start;
+}
+
+#home-slideshow-flex-item{
+    border: 1px solid #94618e;
+
+}
+
+#home-flex-item{
+    background-color: #f8EEE7;
+    border: 1px solid #94618e; 
+    padding: 0px 15px 15px 15px;
+    width: 50%;
+
+}
+
+#home-flex-item > h2{
+    font-family: loster;
+    font-weight: 700;
+    border-bottom: 1px solid black;
+}
+
+#home-flex-item > div > p{
+    font-family: pacifico;
+    font-size: 22px
+}
+
+/*--- Categories ---*/
+#upcoming{
+    background-color: #94618e; 
+    color: white;
+
+}
+
+#upcoming > h3,h5{
+    font-family: comfortaa;
+    margin: 0 auto;
+    width: 80%;
+    padding-top: 15px;
+
+}
+
+#upcoming > h4{
+    font-family: comfortaa;
+    margin-left: 65px; 
+}
+
+
+#age-categories{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    background-color: #49274a;
+    border-bottom: 3px solid #94618e;
+}
+
+#age-categories > div  {
+    font-family: lora;
+}
+
+#age-categories > div > h4{
+    font-family: playfair display;
+    font-weight: 700;
+}
+
+/*------*/
+@media screen and (max-width: 722px) {
+    #home-flex-item{
+        background-color: #f8EEE7;
+        border: 1px solid #94618e; 
+        padding: 0px 15px 15px 15px;
+        width: 100%;
+        padding-top: 15px;
+
+    }
+
+    #home-flex-box{
+        padding-top: 0px;
+    }
+
+}
