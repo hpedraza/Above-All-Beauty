@@ -72,16 +72,27 @@ textarea {
 
 }
 
-#home-flex-item > h2{
-    font-family: loster;
+#home-flex-item > h1{
+    /*CHANGEEEEE*/
+    font-family: dancing script , 'Script MT';
     font-weight: 700;
     border-bottom: 1px solid black;
 }
 
 #home-flex-item > div > p{
-    font-family: pacifico;
-    font-size: 22px
+    font-family: 'Times New Roman' , 'Script MT';
+    font-size: 17.5px;
+
 }
+.quoter{
+    font-size: 1.19em;
+    font-family:  Aparajita;
+    display:block;
+    padding-bottom: 3px;
+
+}
+
+
 
 /*--- Categories ---*/
 #upcoming{
@@ -90,17 +101,15 @@ textarea {
 
 }
 
-#upcoming > h3,h5{
+#upcoming > h1,h3{
     font-family: comfortaa;
-    margin: 0 auto;
-    width: 80%;
     padding-top: 15px;
-
+    margin-top: 0px;
 }
 
-#upcoming > h4{
-    font-family: comfortaa;
-    margin-left: 65px; 
+#age-category-header{
+    font-family: dancing script , 'Script MT';
+    font-size: 40px;
 }
 
 
@@ -110,15 +119,12 @@ textarea {
     flex-wrap: wrap;
     background-color: #49274a;
     border-bottom: 3px solid #94618e;
-}
-
-#age-categories > div  {
     font-family: lora;
 }
 
-#age-categories > div > h4{
-    font-family: playfair display;
-    font-weight: 700;
+
+#age-categories > div > p {
+    font-family: comfortaa;
 }
 
 /*------*/
@@ -128,12 +134,14 @@ textarea {
         border: 1px solid #94618e; 
         padding: 0px 15px 15px 15px;
         width: 100%;
-        padding-top: 15px;
 
     }
 
     #home-flex-box{
-        padding-top: 0px;
+        padding-top:0px;
+        padding-bottom: 0px;
     }
 
+
 }
+

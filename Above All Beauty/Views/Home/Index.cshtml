@@ -6,43 +6,36 @@
     <h1>
         Welcome to Above All Beauty Pageant's Website
     </h1>
+
     <h4>
         Find out about general information, contact information, and upcoming events!
     </h4>
 </div>
 
 <div id="home-flex-box">
+
     <div id="home-slideshow-flex-item">
         <div id="home-slide-show" class="carousel slide carousel-fade" data-ride="carousel">
             @Html.Partial("~/Views/Shared/_HomeSlideShow.cshtml")
         </div>
     </div>
+
     <div id="home-flex-item">
-        <h2>Testimonals</h2>
-        <div class="testimonials">
-            <p>"Of the many activities Lorelai participates in, Pageants is not one of them. When we first discussed participating, she was reluctant and not really willing to try this. I keep telling her it would be fun and a learning experience. She finally said ok and does not regret it. She had such a good time and is looking forward to participating in another soon. Thank you Above All Baby Pageants for this wonderful experience"</p>
-            <span class="quoter ">-Liza E. Gonzalez</span>
-        </div>
-        <div class="testimonials">
-            <p>"Our first time participating in a baby pageant. Loved it! The process was simple and the pageant went smoothly. My baby boy won several awards! Can't wait for the next pageant"</p>
-            <div class="quoter ">-Amanda Esqueda Garza</div>
-        </div>
-        <div class="testimonials"><p>"This was my daughters first baby pageant, and it was amazing!! She won lots of awards, and everything went smoothly"</p> <div class="quoter">-Jennifer Trejo</div></div>
-        <div class="testimonials"><p>"Best Baby Pageant I have ever attended!"</p> <div class="quoter">-Crazy eyes</div></div>
-        <div class="testimonials"><p>"Best Baby Pageant I have ever attended!"</p> <div class="quoter">-Crazy eyes</div></div>
+        @Html.Partial("~/Views/Shared/_Testimonals.cshtml")
     </div>
+
 </div>
 
 
 <div id="upcoming">
-    <h3>Join our 'Halloween Spooktacular Pageant'</h3>
-    <h5>at the McAllen Convention Center on October 29, 2016!</h5>
+    <h1 align="center">Join our 'Halloween Spooktacular Pageant'</h1>
+    <h3 align="center">at the McAllen Convention Center on October 29, 2016</h3>
     <hr />
-    <h4>Age Categories</h4>
+    <p align="center" id="age-category-header">Age Categories</p>
 
     <div id="age-categories">
         <div id="girls">
-            <h4>Girls</h4>
+            <h3>Girls</h3>
             <p>Baby Miss: 01-11 months</p>
             <p>Pee Wee Miss: 12-23 months</p>
             <p>Tiny Miss: 2-3 years</p>
@@ -52,7 +45,7 @@
             <p>Teen Miss: 13-15 years</p>
         </div>
         <div id="Boys">
-            <h4>Boys</h4>
+            <h3>Boys</h3>
             <p>Baby Mr: 01-11 months</p>
             <p>Pee Wee Mr: 12-23 months</p>
             <p>Tiny Mr: 2-3 years</p>
@@ -66,9 +59,6 @@
 
 
 <div id="about-us">
-
-
-
     <div id="headquarters">
         <div id="mapUpcoming" style="width:500px;height:380px; margin: 0 auto;"></div>
     </div>
