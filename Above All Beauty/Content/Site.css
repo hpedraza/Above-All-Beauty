@@ -98,18 +98,32 @@ textarea {
 #upcoming{
     background-color: #94618e; 
     color: white;
-
+    position:relative;
+    z-index: -2;
 }
 
-#upcoming > h1,h3{
+#upcoming > .upcoming-location-header{
+    font-family: comfortaa;
+    margin-top: 0px;
+    color: orange;
+    font-weight: 700;
+    text-shadow: 0px 0.5px black;
+}
+
+#upcoming > .upcoming-header{
     font-family: comfortaa;
     padding-top: 15px;
     margin-top: 0px;
+    text-shadow: 0px 0.95px black;
+    color: white;
 }
 
-#age-category-header{
+.upcoming-information-headers{
     font-family: dancing script , 'Script MT';
     font-size: 40px;
+    font-weight: 700;
+    color: white;
+    text-shadow: 0px 0.95px black;
 }
 
 
@@ -118,7 +132,6 @@ textarea {
     justify-content: space-around;
     flex-wrap: wrap;
     background-color: #49274a;
-    border-bottom: 3px solid #94618e;
     font-family: lora;
 }
 
@@ -126,6 +139,24 @@ textarea {
 #age-categories > div > p {
     font-family: comfortaa;
 }
+
+#spooky-img{
+    position: absolute;
+    top: -65px;
+    left: 35%;
+    z-index: -1;
+    width: 300px;
+}
+
+#competition-list {
+    display: table;
+    margin: 0 auto;
+}
+
+#halloween-beauty-pageant , #extra-photo-p{
+    text-align:center;
+}
+
 
 /*------*/
 @media screen and (max-width: 722px) {
@@ -141,7 +172,16 @@ textarea {
         padding-top:0px;
         padding-bottom: 0px;
     }
-
+    #spooky-img{
+        left: 35%;
+    }
 
 }
 
+@media (min-width: 0px)and (max-width: 678px) {
+
+    #spooky-img{
+        left: 30%;
+    }
+
+}

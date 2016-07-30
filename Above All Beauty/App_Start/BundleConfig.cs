@@ -11,7 +11,8 @@ namespace Above_All_Beauty
             bundles.Add(new ScriptBundle("~/bundles/jquery").Include(
                         "~/Scripts/jquery-{version}.js",
                         "~/Scripts/Mine/carousel.js",
-                        "~/Scripts/Mine/googleMaps.js"));
+                        "~/Scripts/Mine/googleMaps.js",
+                        "~/Scripts/Mine/SmoothScrolling.js"));
 
             bundles.Add(new ScriptBundle("~/bundles/jqueryval").Include(
                         "~/Scripts/jquery.validate*"));
