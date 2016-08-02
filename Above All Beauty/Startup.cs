@@ -8,7 +8,7 @@ namespace Above_All_Beauty
     {
         public void Configuration(IAppBuilder app)
         {
-            ConfigureAuth(app);
+            
         }
     }
 }

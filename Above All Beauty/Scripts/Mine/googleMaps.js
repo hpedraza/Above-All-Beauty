@@ -1,18 +1,22 @@
 ﻿function initialize() {
 
+    var myLatLng = {lat: 26.2505304, lng:-98.15763859999998};
+
     var mapUpcoming = {
-        center: new google.maps.LatLng(26.1978497, -98.2774268),
+        center: myLatLng,
         zoom: 15,
         mapTypeId: google.maps.MapTypeId.ROADMAP
     };
 
     var map = new google.maps.Map(document.getElementById('mapUpcoming'), mapUpcoming);
 
-    var conventionCenterMarker = new google.maps.Marker({
-        position: myCenter
+    var aboveAllHeadquartersMarker = new google.maps.Marker({
+        position: myLatLng,
+        map: map,
+        Title: 'Above All Beauty Pageant Headquarters'
     });
 
-    conventionCenterMarker.setMap(map);
+
 }
 
 google.maps.event.addDomListener(window, 'load', initialize);

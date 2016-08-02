@@ -192,18 +192,11 @@
   <ItemGroup>
     <Compile Include="App_Start\BundleConfig.cs" />
     <Compile Include="App_Start\FilterConfig.cs" />
-    <Compile Include="App_Start\IdentityConfig.cs" />
     <Compile Include="App_Start\RouteConfig.cs" />
-    <Compile Include="App_Start\Startup.Auth.cs" />
-    <Compile Include="Controllers\AccountController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
-    <Compile Include="Controllers\ManageController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
-    <Compile Include="Models\AccountViewModels.cs" />
-    <Compile Include="Models\IdentityModels.cs" />
-    <Compile Include="Models\ManageViewModels.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Startup.cs" />
   </ItemGroup>
@@ -213,27 +206,21 @@
     <Content Include="Content\BootstrapOverwrite.css" />
     <Content Include="Content\carousel.css" />
     <Content Include="favicon.ico" />
-    <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Global.asax" />
     <Content Include="Content\Site.css" />
-    <Content Include="Images\HomeSlideShow\Event\IMG_9396.JPG" />
+    <Content Include="Images\coordinators\aa-lilly.PNG" />
     <Content Include="Images\HomeSlideShow\Event\IMG_9450.JPG" />
     <Content Include="Images\HomeSlideShow\Event\IMG_9481.JPG" />
     <Content Include="Images\HomeSlideShow\Event\IMG_9482.JPG" />
     <Content Include="Images\HomeSlideShow\Event\IMG_9490.JPG" />
-    <Content Include="Images\HomeSlideShow\Event\IMG_9515.JPG" />
     <Content Include="Images\HomeSlideShow\Event\IMG_9521.JPG" />
     <Content Include="Images\HomeSlideShow\Event\IMG_9537.JPG" />
     <Content Include="Images\HomeSlideShow\Event\IMG_9556.JPG" />
-    <Content Include="Images\HomeSlideShow\Parade\20160704_071851.jpg" />
-    <Content Include="Images\HomeSlideShow\Parade\20160704_072203.jpg" />
-    <Content Include="Images\HomeSlideShow\Parade\20160704_072218.jpg" />
-    <Content Include="Images\HomeSlideShow\Parade\20160704_072310.jpg" />
-    <Content Include="Images\HomeSlideShow\Parade\20160704_080029.jpg" />
     <Content Include="Images\HomeSlideShow\Parade\20160704_083054.jpg" />
-    <Content Include="Images\HomeSlideShow\Parade\20160704_085029.jpg" />
-    <Content Include="Images\HomeSlideShow\Parade\20160704_093715.jpg" />
+    <Content Include="Images\sponsors\elegance-shutters.jpg" />
+    <Content Include="Images\sponsors\texas-star-logo.jpg" />
     <Content Include="Images\Website Imgs\Bat-Moon.png" />
+    <Content Include="Images\Website Imgs\fb-logo.png" />
     <Content Include="Images\Website Imgs\logo.png" />
     <Content Include="Scripts\ai.0.22.19-build00125.js" />
     <Content Include="Scripts\ai.0.22.19-build00125.min.js" />
@@ -266,31 +253,8 @@
     </Content>
     <Content Include="Views\Web.config" />
     <Content Include="Views\_ViewStart.cshtml" />
-    <Content Include="Views\Shared\Error.cshtml" />
     <Content Include="Views\Shared\_Layout.cshtml" />
-    <Content Include="Views\Home\About.cshtml" />
-    <Content Include="Views\Home\Contact.cshtml" />
     <Content Include="Views\Home\Index.cshtml" />
-    <Content Include="Views\Account\_ExternalLoginsListPartial.cshtml" />
-    <Content Include="Views\Account\ConfirmEmail.cshtml" />
-    <Content Include="Views\Account\ExternalLoginConfirmation.cshtml" />
-    <Content Include="Views\Account\ExternalLoginFailure.cshtml" />
-    <Content Include="Views\Account\ForgotPassword.cshtml" />
-    <Content Include="Views\Account\ForgotPasswordConfirmation.cshtml" />
-    <Content Include="Views\Account\Login.cshtml" />
-    <Content Include="Views\Account\Register.cshtml" />
-    <Content Include="Views\Account\ResetPassword.cshtml" />
-    <Content Include="Views\Account\ResetPasswordConfirmation.cshtml" />
-    <Content Include="Views\Account\SendCode.cshtml" />
-    <Content Include="Views\Account\VerifyCode.cshtml" />
-    <Content Include="Views\Manage\AddPhoneNumber.cshtml" />
-    <Content Include="Views\Manage\ChangePassword.cshtml" />
-    <Content Include="Views\Manage\Index.cshtml" />
-    <Content Include="Views\Manage\ManageLogins.cshtml" />
-    <Content Include="Views\Manage\SetPassword.cshtml" />
-    <Content Include="Views\Manage\VerifyPhoneNumber.cshtml" />
-    <Content Include="Views\Shared\Lockout.cshtml" />
-    <Content Include="Views\Shared\_LoginPartial.cshtml" />
     <Content Include="Views\Shared\_HomeSlideShow.cshtml" />
     <Content Include="Views\Shared\_Testimonals.cshtml" />
   </ItemGroup>
@@ -298,11 +262,7 @@
     <Folder Include="App_Data\" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="fonts\glyphicons-halflings-regular.woff" />
-    <Content Include="fonts\glyphicons-halflings-regular.ttf" />
-    <Content Include="fonts\glyphicons-halflings-regular.eot" />
     <Content Include="packages.config" />
-    <None Include="Project_Readme.html" />
     <Content Include="Scripts\jquery-1.10.2.min.map" />
   </ItemGroup>
   <PropertyGroup>
